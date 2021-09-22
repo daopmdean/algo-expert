@@ -1,4 +1,4 @@
-package nthfibonacci
+package easy
 
 func GetNthFib(n int) int {
 	if n == 1 {
