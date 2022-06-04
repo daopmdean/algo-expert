@@ -1,6 +1,6 @@
 package main
 
-func FirstNonRepeatingCharacter(str string) int {
+func FirstNonRepeatingCharacterV2(str string) int {
 	for i, v := range str {
 		found := false
 
