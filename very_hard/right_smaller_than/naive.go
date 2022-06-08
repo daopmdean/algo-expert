@@ -1,6 +1,6 @@
 package main
 
-func RightSmallerThan(array []int) []int {
+func RightSmallerThanNaive(array []int) []int {
 	result := []int{}
 
 	for i, v := range array {
