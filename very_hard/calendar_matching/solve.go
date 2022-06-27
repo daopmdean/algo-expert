@@ -30,7 +30,7 @@ func CalendarMatching(
 
 func updateCalendar(calendar []StringMeeting, dailyBounds StringMeeting) []Meeting {
 	updatedCalendar := append([]StringMeeting{
-		StringMeeting{
+		{
 			Start: "0:00",
 			End:   dailyBounds.Start,
 		},
