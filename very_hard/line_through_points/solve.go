@@ -58,7 +58,7 @@ func getGreatestCommonDivisor(num1, num2 int) int {
 }
 
 func createHashTableKeyForRational(numerator int, denominator int) string {
-	return fmt.Sprintf("%d:&d", numerator, denominator)
+	return fmt.Sprintf("%d:%d", numerator, denominator)
 }
 
 func maxSlope(slopes map[string]int) int {
